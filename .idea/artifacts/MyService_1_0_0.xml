@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MyService-1.0.0">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyService_1_0_0</output-path>
+    <root id="archive" name="MyService-1.0.0.jar">
+      <element id="directory" name="io">
+        <element id="directory" name="vertx">
+          <element id="directory" name="microservice">
+            <element id="directory" name="service">
+              <element id="file-copy" path="$PROJECT_DIR$/vertx-microservices-provider/target/classes/io/vertx/microservice/service/MyService.class" />
+              <element id="file-copy" path="$PROJECT_DIR$/vertx-microservices-provider/target/classes/io/vertx/microservice/service/MyServiceVertxProxyHandler.class" />
+              <element id="file-copy" path="$PROJECT_DIR$/vertx-microservices-provider/target/classes/io/vertx/microservice/service/MyServiceVertxEBProxy.class" />
+              <element id="directory" name="impl">
+                <element id="file-copy" path="$PROJECT_DIR$/vertx-microservices-provider/target/classes/io/vertx/microservice/service/impl/MyServiceImpl.class" />
+              </element>
+            </element>
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

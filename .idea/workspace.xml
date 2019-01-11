@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f100a747-dff3-4885-b2e3-3edc1232cd6d" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/vert.x-microservice-provider/target/" />
+    <ignored path="$PROJECT_DIR$/vertx-microservice-provider/target/" />
+    <ignored path="$PROJECT_DIR$/vertx-microservices-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/vertx-microservices-provider/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vertx-microservice-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/vertx-microservice-provider/src/main/java/io/vertx/starter/ServiceVerticle.java" />
+        <option value="$PROJECT_DIR$/vertx-microservice-provider/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java" />
+        <option value="X:/vertx-microservices-consumer/src/main/java/io/vertx/microservice/service/MyService.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/generated/io/vertx/microservice/service/MyServiceVertxProxyHandler.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/generated/io/vertx/microservice/service/MyServiceVertxEBProxy.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/service/impl/MyServiceImpl.java" />
+        <option value="X:/vertx-microservices-consumer/src/main/java/io/vertx/starter/StarterVerticle.java" />
+        <option value="//192.168.3.10/deos/vertx-microservices-consumer/src/main/java/io/vertx/starter/StarterVerticle.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/service/MyService.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/service/SecondService.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/service/impl/SecondServiceImpl.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/service/impl/MyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/starter/StarterVerticle.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/service/MyService.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/service/SecondService.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/provider/ZookeeperProviderVerticle.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/package-info.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/service/SecondService.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/service/MyService.java" />
+        <option value="Z:/vertx-microservices-consumer/src/main/java/io/vertx/package-info.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/starter/StarterVerticle.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-consumer/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="vertx-microservices-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="vertx-microservices-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="vertx-microservices-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="185" />
+    <option name="y" value="46" />
+    <option name="width" value="1740" />
+    <option name="height" value="965" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.21534437" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\vert.x projects\vertx-microservices-consumer\src\main\java\io\vertx\microservice\service" />
+      <recent name="D:\vert.x projects\vertx-microservices-consumer\src\main\java\io\vertx" />
+      <recent name="D:\vert.x projects\vertx-microservices-consumer\src\main\resources\lib" />
+      <recent name="D:\vert.x projects\vertx-microservice-provider\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.StarterVerticle">
+    <configuration name="MyService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.vertx.microservice.service.MyService" />
+      <module name="vertx-microservices-provider" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ServiceVerticle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.vertx.starter.ServiceVerticle" />
+      <module name="vertx-microservice-provider" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="StarterVerticle (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.vertx.starter.StarterVerticle" />
+      <module name="vertx-microservices-consumer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="StarterVerticle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.vertx.starter.StarterVerticle" />
+      <module name="vertx-microservices-provider" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.ServiceVerticle" />
+      <item itemvalue="Application.StarterVerticle" />
+      <item itemvalue="Application.StarterVerticle (1)" />
+      <item itemvalue="Application.MyService" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StarterVerticle" />
+        <item itemvalue="Application.MyService" />
+        <item itemvalue="Application.StarterVerticle (1)" />
+        <item itemvalue="Application.ServiceVerticle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f100a747-dff3-4885-b2e3-3edc1232cd6d" name="Default" comment="" />
+      <created>1545996789596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545996789596</updated>
+      <workItem from="1545996790988" duration="2019000" />
+      <workItem from="1546001087145" duration="2805000" />
+      <workItem from="1546101586306" duration="3761000" />
+      <workItem from="1546158437691" duration="6219000" />
+      <workItem from="1546165420752" duration="1233000" />
+      <workItem from="1546179784172" duration="6057000" />
+      <workItem from="1547216341000" duration="5780000" />
+      <workItem from="1547225207213" duration="3198000" />
+      <workItem from="1547228668080" duration="343000" />
+    </task>
+    <task id="LOCAL-00001" summary="vert.x 3.6.2 分布式 微服务 注册中心是zookeeper 发布HttpEndPoint和EventBusService">
+      <created>1547227657015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547227657015</updated>
+    </task>
+    <task id="LOCAL-00002" summary="vert.x 3.6.2 分布式 微服务 注册中心是zookeeper 发布HttpEndPoint和EventBusService">
+      <created>1547228082028</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547228082028</updated>
+    </task>
+    <task id="LOCAL-00003" summary="vert.x 3.6.2 分布式 微服务 注册中心是zookeeper 发布HttpEndPoint和EventBusService">
+      <created>1547228771840</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547228771841</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="31415000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.32952926" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.1964018" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932975" weight="0.32952926" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39375" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25134048" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.328125" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="vert.x 3.6.2 分布式 微服务 注册中心是zookeeper 发布HttpEndPoint和EventBusService" />
+    <option name="LAST_COMMIT_MESSAGE" value="vert.x 3.6.2 分布式 微服务 注册中心是zookeeper 发布HttpEndPoint和EventBusService" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/vertx/vertx-blueprint-microservice-master/product-microservice/src/main/java/io/vertx/blueprint/microservice/product/api/RestProductAPIVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/vertx/vertx-examples-master/service-discovery-examples/src/main/java/io/vertx/example/service/discovery/ServiceDiscoveryVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.6.2/vertx-web-3.6.2-sources.jar!/io/vertx/ext/web/Router.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-service-discovery/3.6.2/vertx-service-discovery-3.6.2-sources.jar!/io/vertx/servicediscovery/ServiceDiscovery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-service-discovery/3.6.2/vertx-service-discovery-3.6.2-sources.jar!/io/vertx/servicediscovery/impl/DiscoveryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-service-discovery/3.6.2/vertx-service-discovery-3.6.2-sources.jar!/io/vertx/servicediscovery/spi/ServiceDiscoveryBackend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-service-discovery-backend-zookeeper/3.6.2/vertx-service-discovery-backend-zookeeper-3.6.2-sources.jar!/io/vertx/servicediscovery/backend/zookeeper/ZookeeperBackendService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="180" column="8" lean-forward="true" selection-start-line="180" selection-start-column="8" selection-end-line="180" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-service-discovery/3.6.2/vertx-service-discovery-3.6.2-sources.jar!/io/vertx/servicediscovery/types/EventBusService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="129" column="9" lean-forward="true" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="49" column="35" lean-forward="true" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-service-proxy/3.6.2/vertx-service-proxy-3.6.2-sources.jar!/io/vertx/serviceproxy/ServiceProxyBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="114" column="42" lean-forward="true" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/java x86/jdk1.8.0_181/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="411" column="28" lean-forward="true" selection-start-line="411" selection-start-column="28" selection-end-line="411" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://X:/vertx-microservices-consumer/src/main/generated/io/vertx/microservice/service/MyServiceVertxEBProxy.java" />
+    <entry file="file://X:/vertx-microservices-consumer/src/main/java/io/vertx/microservice/service/MyService.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-service-discovery/3.6.2/vertx-service-discovery-3.6.2-sources.jar!/io/vertx/servicediscovery/ServiceReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-service-discovery/3.6.2/vertx-service-discovery-3.6.2-sources.jar!/io/vertx/servicediscovery/utils/ClassLoaderUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-service-discovery/3.6.2/vertx-service-discovery-3.6.2-sources.jar!/io/vertx/servicediscovery/types/AbstractServiceReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="93" column="40" lean-forward="true" selection-start-line="93" selection-start-column="40" selection-end-line="93" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-service-discovery/3.6.2/vertx-service-discovery-3.6.2-sources.jar!/io/vertx/servicediscovery/types/impl/EventBusServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="77" column="59" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/generated/io/vertx/microservice/service/MyServiceVertxProxyHandler.java" />
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/generated/io/vertx/microservice/service/MyServiceVertxEBProxy.java" />
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/service/impl/MyServiceImpl.java" />
+    <entry file="file://X:/vertx-microservices-provider/src/main/java/io/vertx/microservice/provider/ZookeeperProviderVerticle.java" />
+    <entry file="file://X:/vertx-microservices-provider/src/main/java/io/vertx/starter/StarterVerticle.java" />
+    <entry file="file://D:/vertx/vertx-examples-master/service-proxy-examples/service-consumer/src/main/java/io/vertx/examples/service/consumer/ConsumerVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://X:/vertx-microservices-consumer/src/main/java/io/vertx/starter/StarterVerticle.java" />
+    <entry file="file://D:/vertx/vertx-examples-master/service-proxy-examples/service-provider/src/main/java/io/vertx/examples/service/ProcessorServiceVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="49" column="51" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/vertx/vertx-examples-master/service-proxy-examples/service-provider/src/main/java/io/vertx/examples/service/ProcessorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-service-discovery/3.6.2/vertx-service-discovery-3.6.2-sources.jar!/io/vertx/servicediscovery/types/HttpEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2774">
+          <caret line="69" column="110" selection-start-line="69" selection-start-column="102" selection-end-line="69" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:////192.168.3.10/deos/vertx-microservices-consumer/src/main/java/io/vertx/starter/StarterVerticle.java" />
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/service/impl/SecondServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/service/impl/MyServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/service/impl/SecondServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/service/MyService.java" />
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/service/SecondService.java" />
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://Z:/vertx-microservices-consumer/src/main/java/io/vertx/starter/StarterVerticle.java" />
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/service/SecondService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="28" column="78" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="28" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Z:/vertx-microservices-consumer/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/service/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Z:/vertx-microservices-consumer/src/main/java/io/vertx/microservice/service/MyService.java" />
+    <entry file="file://Z:/vertx-microservices-consumer/src/main/java/io/vertx/microservice/service/SecondService.java" />
+    <entry file="file://Z:/vertx-microservices-consumer/src/main/java/io/vertx/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/service/impl/MyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/service/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/service/SecondService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1721">
+          <caret line="127" column="19" selection-start-line="87" selection-start-column="10" selection-end-line="127" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/starter/StarterVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="71" column="46" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/starter/StarterVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/provider/ZookeeperProviderVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>MyService-1.0.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.21534437" />
+                <option value="0.62222224" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>vert.x projects</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26206896" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: biz.paluch.logging:logstash-gelf:1.11.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

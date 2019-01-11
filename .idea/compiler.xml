@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for vertx-microservices-provider" enabled="true">
+        <sourceOutputDir name="src/main/generated" />
+        <sourceTestOutputDir name="src/test/generated" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="codegen.output" value="D:\vert.x projects\vertx-microservices-provider/src/main" />
+        <processor name="io.vertx.codegen.CodeGenProcessor" />
+        <module name="vertx-microservices-provider" />
+      </profile>
+      <profile name="Annotation profile for vertx-microservices-consumer" enabled="true">
+        <sourceOutputDir name="src/main/generated" />
+        <sourceTestOutputDir name="src/test/generated" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="codegen.output" value="D:\vert.x projects\vertx-microservices-consumer/src/main" />
+        <processor name="io.vertx.codegen.CodeGenProcessor" />
+        <module name="vertx-microservices-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="vertx-microservice-provider" target="1.8" />
+      <module name="vertx-microservices-consumer" target="1.8" />
+      <module name="vertx-microservices-provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
