@@ -5,7 +5,9 @@ Remote Procedure Call(RPC)
 Backend is zookeeper.
 
 Deployed two microservices:
+
 	1.EventBusService(Must be started in cluster mode)
+	
 	2.HttpEndpoint
 
 1.Modify the configuration file(src/config/local.json) according to your situation;
