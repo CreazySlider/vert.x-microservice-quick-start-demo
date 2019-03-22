@@ -9,6 +9,9 @@ Deployed two microservices:
 	1.EventBusService(Must be started in cluster mode)
 	
 	2.HttpEndpoint
+	
+	
+Start:
 
 1.Modify the configuration file(src/config/local.json) according to your situation;
 
@@ -21,3 +24,4 @@ Deployed two microservices:
 5.http://consumer.http.host:8080/httpEndPoint/sayHi/Jack
   http://consumer.http.host:8080/ebServiceProxy/sayHi/Tom
   http://consumer.http.host:8080/ebServiceProxy/getLength/vertx
+  

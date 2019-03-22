@@ -141,7 +141,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="185" />
     <option name="y" value="45" />
     <option name="width" value="1740" />
@@ -416,7 +416,7 @@
       <workItem from="1547228668080" duration="343000" />
       <workItem from="1547642061102" duration="97000" />
       <workItem from="1553265647591" duration="3507000" />
-      <workItem from="1553271497866" duration="4835000" />
+      <workItem from="1553271497866" duration="5210000" />
     </task>
     <task id="LOCAL-00001" summary="vert.x 3.6.2 分布式 微服务 注册中心是zookeeper 发布HttpEndPoint和EventBusService">
       <created>1547227657015</created>
@@ -443,10 +443,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39854000" />
+    <option name="totallyTimeSpent" value="40229000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
