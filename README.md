@@ -22,6 +22,10 @@ Start:
 4.cd vertx-microservices-consumer;./redeploy.sh
 
 5.http://consumer.http.host:8080/httpEndPoint/sayHi/Jack
+
+
   http://consumer.http.host:8080/ebServiceProxy/sayHi/Tom
+  
+  
   http://consumer.http.host:8080/ebServiceProxy/getLength/vertx
   
