@@ -19,23 +19,20 @@ import io.vertx.serviceproxy.ServiceBinder;
 
 public class ZookeeperProviderVerticle extends BaseMicroserviceVerticle{
 
-    private final String REST_API_NAME = "vert.x-microservice-httpEndpoint";
-    private final int httpServerPort = 8080;
     /**
      * 如果provider和consumser没有部署在同一台服务器上，host必须是provider所在服务器的真实ip，不然consumser调用httpEndPoint的时候报404
      * 如果provider和consumser部署在同一台服务器上，host可以是127.0.0.1
      */
-    private final String host = "192.168.3.10";
 
-	private static final Logger logger = LoggerFactory.getLogger(ZookeeperProviderVerticle.class);
-	@Override
-	public void start(Future<Void> future) throws Exception {
-		super.start();
-		
-		MyService myService = MyService.create();
+    private static final Logger logger = LoggerFactory.getLogger(io.vertx.microservice.provider.ZookeeperProviderVerticle.class);
+    @Override
+    public void start(Future<Void> future) throws Exception {
+        super.start();
+
+        MyService myService = MyService.create();
         SecondService secondService = SecondService.create();
 
-		// Register the handler
+        // Register the handler
         new ServiceBinder(vertx)
                 .setAddress(MyService.SERVICE_ADDRESS)
                 .register(MyService.class, myService);
@@ -44,7 +41,7 @@ public class ZookeeperProviderVerticle extends BaseMicroserviceVerticle{
                 .setAddress(SecondService.SERVICE_ADDRESS)
                 .register(SecondService.class, secondService);
 
-	    Router router = Router.router(vertx);
+        Router router = Router.router(vertx);
 
         BridgeOptions opts = new BridgeOptions()
                 .addInboundPermitted(new PermittedOptions().setAddress(MyService.SERVICE_ADDRESS))
@@ -65,17 +62,22 @@ public class ZookeeperProviderVerticle extends BaseMicroserviceVerticle{
         router.route().handler(StaticHandler.create());
 
         publishEventBusService(MyService.SERVICE_NAME, MyService.SERVICE_ADDRESS, MyService.class)
-            .compose(v -> publishEventBusService(SecondService.SERVICE_NAME, SecondService.SERVICE_ADDRESS, SecondService.class)
-            , null);
+                .compose(v -> publishEventBusService(SecondService.SERVICE_NAME, SecondService.SERVICE_ADDRESS, SecondService.class)
+                        , null);
 
+        int httpServerPort = config().getInteger("http.port");
+
+        String host = config().getString("http.host");
+
+        String REST_API_NAME = config().getString("rest.api.name");
 
         createHttpServer(router, host, httpServerPort)
-            .compose(serverCreated -> publishHttpEndpoint(REST_API_NAME, host, httpServerPort))
-            .setHandler((future.completer()));
+                .compose(serverCreated -> publishHttpEndpoint(REST_API_NAME, host, httpServerPort))
+                .setHandler((future.completer()));
 
-	}
+    }
 
-	private void sayHi(RoutingContext context){
+    private void sayHi(RoutingContext context){
         String username = context.request().getParam("username");
         logger.info("call provider httpEndPoint.username:"+username);
         context.response().end("Hi " + username + ".");

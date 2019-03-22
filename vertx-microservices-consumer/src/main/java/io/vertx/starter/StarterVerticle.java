@@ -14,7 +14,7 @@ import io.vertx.servicediscovery.types.EventBusService;
 
 public class StarterVerticle extends BaseMicroserviceVerticle {
 
-	private static final Logger logger = LoggerFactory.getLogger(StarterVerticle.class);
+	private static final Logger logger = LoggerFactory.getLogger(io.vertx.starter.StarterVerticle.class);
 
 	@Override
 	public void start() throws Exception {
@@ -23,10 +23,16 @@ public class StarterVerticle extends BaseMicroserviceVerticle {
 
 		router.route().handler(BodyHandler.create());
 
+		int httpServerPort = config().getInteger("http.port");
+
+		String host = config().getString("http.host");
+
+		String consumer_host = config().getString("consumer.host");
+
 		router.get("/httpEndPoint/sayHi/:username").handler(context -> {
 			long startTime = System.currentTimeMillis();
 			String username = context.request().getParam("username");
-			zookeeperDiscovery.getRecord(r -> r.getName().equals("vert.x-microservice-httpEndpoint"), ar -> {
+			zookeeperDiscovery.getRecord(r -> r.getName().equals(config().getString("rest.api.name")), ar -> {
 				if (ar.succeeded()) {
 					if (ar.result() != null) {
 						// Retrieve the service reference
@@ -38,7 +44,7 @@ public class StarterVerticle extends BaseMicroserviceVerticle {
 						 * 否则必须写host
 						 * 如果想实现负载均衡，此host可以写成nginx的host，consumser的host配置在nginx上
 						 */
-						client.get("192.168.3.10","/sayHi/" + username).send(response -> {
+						client.get(consumer_host,"/sayHi/" + username).send(response -> {
 							context.response().end(response.result().bodyAsString());
 							reference.release();
 							long endTime = System.currentTimeMillis();
@@ -86,7 +92,7 @@ public class StarterVerticle extends BaseMicroserviceVerticle {
 				}
 			});
 		});
-        vertx.createHttpServer().requestHandler(router).listen(8005);
+		vertx.createHttpServer().requestHandler(router).listen(httpServerPort, host);
 
 	}
 

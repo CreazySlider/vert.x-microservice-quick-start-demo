@@ -1,0 +1,9 @@
+{
+ "http.port": 8001,
+ "http.host": "127.0.0.1",
+ "zookeeper.ip": "192.168.3.10",
+ "zookeeper.port": "2181",
+ "basePath": "/vertx/zookeeper/service",
+ "rest.api.name": "vert.x-microservice-httpEndpoint",
+ "zookeeper.discovery.name": "vertx.microservice.zookeeper.provider"
+}

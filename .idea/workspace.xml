@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f100a747-dff3-4885-b2e3-3edc1232cd6d" name="Default" comment="" />
+    <list default="true" id="f100a747-dff3-4885-b2e3-3edc1232cd6d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/starter/StarterVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/starter/StarterVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/provider/ZookeeperProviderVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/provider/ZookeeperProviderVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/starter/StarterVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/starter/StarterVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertx-microservices-provider/target/classes/io/vertx/microservice/common/BaseMicroserviceVerticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/vertx-microservices-provider/target/classes/io/vertx/microservice/common/BaseMicroserviceVerticle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertx-microservices-provider/target/classes/io/vertx/microservice/provider/ZookeeperProviderVerticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/vertx-microservices-provider/target/classes/io/vertx/microservice/provider/ZookeeperProviderVerticle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertx-microservices-provider/target/classes/io/vertx/microservice/service/MyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/vertx-microservices-provider/target/classes/io/vertx/microservice/service/MyService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertx-microservices-provider/target/classes/io/vertx/microservice/service/impl/MyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/vertx-microservices-provider/target/classes/io/vertx/microservice/service/impl/MyServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vertx-microservices-provider/target/classes/io/vertx/starter/StarterVerticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/vertx-microservices-provider/target/classes/io/vertx/starter/StarterVerticle.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/vert.x-microservice-provider/target/" />
     <ignored path="$PROJECT_DIR$/vertx-microservice-provider/target/" />
     <ignored path="$PROJECT_DIR$/vertx-microservices-consumer/target/" />
@@ -14,7 +26,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="StarterVerticle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/starter/StarterVerticle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StarterVerticle.java" pinned="false" current-in-tab="true">
+        <entry file="file://Z:/vertx-microservices-consumer/src/main/java/io/vertx/starter/StarterVerticle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,8 +65,6 @@
         <option value="$PROJECT_DIR$/vertx-microservice-provider/pom.xml" />
         <option value="$PROJECT_DIR$/vertx-microservice-provider/src/main/java/io/vertx/starter/ServiceVerticle.java" />
         <option value="$PROJECT_DIR$/vertx-microservice-provider/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java" />
-        <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java" />
-        <option value="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java" />
         <option value="X:/vertx-microservices-consumer/src/main/java/io/vertx/microservice/service/MyService.java" />
         <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/generated/io/vertx/microservice/service/MyServiceVertxProxyHandler.java" />
         <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/generated/io/vertx/microservice/service/MyServiceVertxEBProxy.java" />
@@ -46,17 +75,24 @@
         <option value="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/service/SecondService.java" />
         <option value="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/service/impl/SecondServiceImpl.java" />
         <option value="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/service/impl/MyServiceImpl.java" />
-        <option value="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/starter/StarterVerticle.java" />
         <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/service/MyService.java" />
         <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/service/SecondService.java" />
-        <option value="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/provider/ZookeeperProviderVerticle.java" />
         <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/package-info.java" />
         <option value="$PROJECT_DIR$/vertx-microservices-provider/pom.xml" />
         <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/service/SecondService.java" />
         <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/service/MyService.java" />
         <option value="Z:/vertx-microservices-consumer/src/main/java/io/vertx/package-info.java" />
-        <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/starter/StarterVerticle.java" />
         <option value="$PROJECT_DIR$/vertx-microservices-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/starter/StarterVerticle.java" />
+        <option value="Z:/vertx-microservices-provider/src/main/java/io/vertx/starter/StarterVerticle.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/provider/ZookeeperProviderVerticle.java" />
+        <option value="Z:/vertx-microservices-provider/src/main/java/io/vertx/microservice/provider/ZookeeperProviderVerticle.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java" />
+        <option value="Z:/vertx-microservices-provider/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java" />
+        <option value="Z:/vertx-microservices-consumer/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java" />
+        <option value="$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/starter/StarterVerticle.java" />
+        <option value="Z:/vertx-microservices-consumer/src/main/java/io/vertx/starter/StarterVerticle.java" />
       </list>
     </option>
   </component>
@@ -90,9 +126,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="185" />
-    <option name="y" value="46" />
+    <option name="y" value="45" />
     <option name="width" value="1740" />
     <option name="height" value="965" />
   </component>
@@ -102,6 +138,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,12 +152,170 @@
               <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
               <item name="vertx-microservices-consumer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vert.x projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vert.x projects" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx-microservices-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="starter" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,7 +350,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StarterVerticle">
+  <component name="RunManager" selected="Application.BaseMicroserviceVerticle">
+    <configuration name="BaseMicroserviceVerticle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.vertx.microservice.common.BaseMicroserviceVerticle" />
+      <module name="vertx-microservices-provider" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="MyService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.vertx.microservice.service.MyService" />
       <module name="vertx-microservices-provider" />
@@ -203,9 +404,11 @@
       <item itemvalue="Application.StarterVerticle" />
       <item itemvalue="Application.StarterVerticle (1)" />
       <item itemvalue="Application.MyService" />
+      <item itemvalue="Application.BaseMicroserviceVerticle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BaseMicroserviceVerticle" />
         <item itemvalue="Application.StarterVerticle" />
         <item itemvalue="Application.MyService" />
         <item itemvalue="Application.StarterVerticle (1)" />
@@ -232,6 +435,9 @@
       <workItem from="1547216341000" duration="5780000" />
       <workItem from="1547225207213" duration="3198000" />
       <workItem from="1547228668080" duration="343000" />
+      <workItem from="1547642061102" duration="97000" />
+      <workItem from="1553265647591" duration="3507000" />
+      <workItem from="1553271497866" duration="2832000" />
     </task>
     <task id="LOCAL-00001" summary="vert.x 3.6.2 分布式 微服务 注册中心是zookeeper 发布HttpEndPoint和EventBusService">
       <created>1547227657015</created>
@@ -258,23 +464,26 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31415000" />
+    <option name="totallyTimeSpent" value="37851000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3281027" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.32952926" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.1964018" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932975" weight="0.32952926" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39375" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39372325" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25134048" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2580429" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="BPMNPalette" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -283,11 +492,37 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.328125" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="BPMNPalette" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932975" weight="0.32952926" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2580429" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39372325" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.32952926" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3281027" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.1964018" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -300,48 +535,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="vert.x 3.6.2 分布式 微服务 注册中心是zookeeper 发布HttpEndPoint和EventBusService" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/vertx/vertx-blueprint-microservice-master/product-microservice/src/main/java/io/vertx/blueprint/microservice/product/api/RestProductAPIVerticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="39" column="39" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/vertx/vertx-examples-master/service-discovery-examples/src/main/java/io/vertx/example/service/discovery/ServiceDiscoveryVerticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/3.6.2/vertx-web-3.6.2-sources.jar!/io/vertx/ext/web/Router.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-service-discovery/3.6.2/vertx-service-discovery-3.6.2-sources.jar!/io/vertx/servicediscovery/ServiceDiscovery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-service-discovery/3.6.2/vertx-service-discovery-3.6.2-sources.jar!/io/vertx/servicediscovery/impl/DiscoveryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-service-discovery/3.6.2/vertx-service-discovery-3.6.2-sources.jar!/io/vertx/servicediscovery/spi/ServiceDiscoveryBackend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-service-discovery-backend-zookeeper/3.6.2/vertx-service-discovery-backend-zookeeper-3.6.2-sources.jar!/io/vertx/servicediscovery/backend/zookeeper/ZookeeperBackendService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -353,13 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
           <caret line="129" column="9" lean-forward="true" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="49" column="35" lean-forward="true" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -446,16 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -466,28 +642,14 @@
     <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/package-info.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://Z:/vertx-microservices-consumer/src/main/java/io/vertx/starter/StarterVerticle.java" />
     <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/service/SecondService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="28" column="78" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="28" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://Z:/vertx-microservices-consumer/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/service/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://Z:/vertx-microservices-consumer/src/main/java/io/vertx/microservice/service/MyService.java" />
     <entry file="file://Z:/vertx-microservices-consumer/src/main/java/io/vertx/microservice/service/SecondService.java" />
     <entry file="file://Z:/vertx-microservices-consumer/src/main/java/io/vertx/package-info.java" />
@@ -498,30 +660,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/service/impl/MyServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/service/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/service/SecondService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="18" selection-start-column="18" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -532,37 +674,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/starter/StarterVerticle.java">
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/redeploy.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="71" column="46" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/starter/StarterVerticle.java">
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/redeploy.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/provider/ZookeeperProviderVerticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="1888">
           <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Z:/vertx-microservices-provider/src/main/java/io/vertx/starter/StarterVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/service/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/starter/StarterVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/service/impl/MyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/service/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Z:/vertx-microservices-provider/src/main/java/io/vertx/microservice/provider/ZookeeperProviderVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/provider/ZookeeperProviderVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="67" column="43" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-provider/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="28" column="50" lean-forward="true" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Z:/vertx-microservices-provider/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Z:/vertx-microservices-consumer/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/microservice/common/BaseMicroserviceVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="25" column="50" lean-forward="true" selection-end-line="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vertx-microservices-consumer/src/main/java/io/vertx/starter/StarterVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Z:/vertx-microservices-consumer/src/main/java/io/vertx/starter/StarterVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
